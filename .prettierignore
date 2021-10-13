@@ -7,6 +7,4 @@ node_modules/
 /public/build
 /coverage
 
-.env
-.env.production
-.envrc
+app/styles
