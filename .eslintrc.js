@@ -20,5 +20,14 @@ module.exports = {
     'react/react-in-jsx-scope': 0,
     'react/jsx-filename-extension': [1, {extensions: ['.js', '.jsx']}],
     'import/no-extraneous-dependencies': 0,
+    'import/no-unresolved': 0,
+  },
+  settings: {
+    'import/resolver': {
+      node: {
+        paths: ['src'],
+        extensions: ['.js', '.ts', '.d.ts', '.tsx', '.css'],
+      },
+    },
   },
 }

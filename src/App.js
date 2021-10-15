@@ -1,8 +1,14 @@
+import Header from '@sections/header'
+import Main from '@sections/main'
+import Footer from '@sections/footer'
+
 function App() {
   return (
-    <div>
-      <h1>Portfolio</h1>
-    </div>
+    <>
+      <Header />
+      <Main />
+      <Footer />
+    </>
   )
 }
 
