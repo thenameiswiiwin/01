@@ -1,5 +1,8 @@
 {
-  "name": "portfolio",
+  "name": "thenameiswiiwin.com",
+  "description": "Huy's personal website",
+  "author": "Huy N. Nguyen <huyn.nguyen95@gmail.com> (https://thenameiswiiwin.com)",
+  "repository": "https://github.com/thenameiswiiwin/portfolio-React",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,9 +20,8 @@
     "build": "craco build",
     "test": "craco test",
     "eject": "craco eject",
-    "lint": "eslint ./",
-    "lint-fix": "eslint ./ --fix",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\""
+    "lint": "eslint .",
+    "format": "prettier --write \"**/*.+(js|jsx|json|yml|yaml|css|less|scss|ts|tsx|graphql|md|mdx)\""
   },
   "lint-staged": {
     "*.js": "eslint"
