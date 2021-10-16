@@ -20,7 +20,7 @@ module.exports = {
     'import/order': 0,
     'import/no-unresolved': 0,
     'import/no-extraneous-dependencies': 0,
-    'react/react-in-jsx-scope': 'off',
+    'react/react-in-jsx-scope': 0,
     'react/prop-types': 0,
     'react/jsx-pascal-case': 0,
     'react/jsx-filename-extension': [1, {extensions: ['.js', '.jsx']}],
@@ -32,6 +32,9 @@ module.exports = {
   },
   settings: {
     'import/resolver': {
+      alias: {
+        map: [['@', './src']],
+      },
       node: {
         paths: ['src'],
         extensions: ['.js', '.ts', '.d.ts', '.tsx'],

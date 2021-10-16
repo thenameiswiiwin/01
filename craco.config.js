@@ -1,11 +1,12 @@
-const path = require('path')
-const tailwindcss = require('tailwindcss')
+const tailwind = require('tailwindcss')
 const autoprefixer = require('autoprefixer')
+
+const path = require('path')
 
 module.exports = {
   style: {
     postcss: {
-      plugins: [tailwindcss, autoprefixer],
+      plugins: [tailwind, autoprefixer],
     },
   },
   webpack: {
