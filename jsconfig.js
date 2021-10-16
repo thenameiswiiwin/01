@@ -1,10 +1,4 @@
 module.exports = {
-  // extends: './jsconfig.paths.js',
-  compilerOptions: {
-    baseUrl: 'src',
-    paths: {
-      '@/*': ['./src/*'],
-    },
-  },
+  extends: './jsconfig.paths.js',
   exclude: ['node_modules', '**/node_modules/*'],
 }
