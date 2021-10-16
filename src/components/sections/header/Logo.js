@@ -2,8 +2,8 @@ import {ReactComponent as LogoLight} from '@/svgs/logo-light.svg'
 
 const Logo = () => {
   return (
-    <section className="w-3/12">
-      <LogoLight width="60" height="53" />
+    <section className="w-1/4">
+      <LogoLight width="70" height="63" />
     </section>
   )
 }

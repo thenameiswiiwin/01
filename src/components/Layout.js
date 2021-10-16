@@ -1,12 +1,11 @@
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+import Header from '@components/sections/header'
+import Footer from '@components/footer'
 
 function Layout() {
   return (
-    <div className="flex flex-col bg-primary text-primary">
+    <div className="flex flex-col">
       <Header />
       <main>
-        {/* Children Props */}
         <Footer />
       </main>
     </div>

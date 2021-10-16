@@ -50,4 +50,7 @@
   .border-secondary {
     @apply border-t-1 border-black;
   }
+  .topPos {
+    @apply relative top-2/25 max-h-9/10;
+  }
 }

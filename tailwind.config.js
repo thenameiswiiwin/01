@@ -11,6 +11,7 @@ module.exports = {
     },
     extend: {
       maxHeight: {
+        '1/10': '10%',
         '9/10': '90%',
       },
       inset: {
@@ -32,6 +33,7 @@ module.exports = {
         orange: '#d13f3f',
       },
       fontSize: {
+        1: '1.3vw',
         2: '2vw',
         4: '4vw',
         5: '5vw',

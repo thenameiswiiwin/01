@@ -1,18 +1,18 @@
 const Links = () => {
   return (
-    <section className="flex relative w-full">
+    <section className="flex leading-snug pb-1.5">
       <div className="w-1/2">
-        <h5 className="uppercase text-6 font-extrabold mb-1.5">Social</h5>
-        <ul className="m-0 p-0 text-5 font-semibold text-orange">
-          <li className="block">linkedin</li>
-          <li className="block">github</li>
-          <li className="block">instagram</li>
+        <h5 className="mb-1.5 text-6 font-extrabold uppercase">Social</h5>
+        <ul className="text-5 font-semibold text-orange">
+          <li>linkedin</li>
+          <li>github</li>
+          <li>instagram</li>
         </ul>
       </div>
       <div className="w-1/2">
-        <h5 className="uppercase text-6 font-extrabold mb-1.5">contact</h5>
-        <ul className="m-0 p-0 text-5 font-semibold text-orange">
-          <li className="block">email</li>
+        <h5 className="mb-1.5 text-6 font-extrabold uppercase">contact</h5>
+        <ul className="text-5 font-semibold text-orange">
+          <li>email</li>
         </ul>
       </div>
     </section>
