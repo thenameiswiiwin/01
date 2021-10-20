@@ -1,4 +1,4 @@
-const Links = () => {
+function Links() {
   return (
     <section className="flex leading-snug pb-1.5">
       <div className="w-1/2">

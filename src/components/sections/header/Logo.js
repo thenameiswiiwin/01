@@ -1,6 +1,6 @@
 import {ReactComponent as LogoLight} from '@/svgs/logo-light.svg'
 
-const Logo = () => {
+function Logo() {
   return (
     <section className="w-1/4">
       <LogoLight width="70" height="63" />
