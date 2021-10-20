@@ -1,9 +1,9 @@
-import Layout from '@components/layout'
+import Home from '@/pages/home'
 
 function App() {
   return (
     <div className="bg-primary">
-      <Layout />
+      <Home />
     </div>
   )
 }

@@ -1,11 +1,12 @@
 import Header from '@sections/header'
 import Footer from '@components/footer'
 
-function Layout() {
+function Layout({children}) {
   return (
     <>
       <Header />
       <main>
+        {children}
         <Footer />
       </main>
     </>
