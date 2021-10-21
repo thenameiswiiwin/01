@@ -1,6 +1,6 @@
 module.exports = {
   compilerOptions: {
-    baseUrl: 'src',
+    baseUrl: '.',
     paths: {
       '@/*': ['./src/*'],
       '@components/*': ['./src/components/*'],

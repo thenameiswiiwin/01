@@ -2,7 +2,7 @@ import {ReactComponent as ArrowDown} from '@/svgs/arrow-down.svg'
 
 function Hero() {
   return (
-    <section className="h-screen py-7/100 px-7/100 flex flex-col justify-between text-xl font-medium">
+    <section className="h-screen py-7/100 px-7/100 flex flex-col justify-between text-xl font-semibold">
       <article className="topPos flex flex-col gap-9 leading-7">
         <div className="w-1/2 mt-1/20">
           <p className="text-orange capitalize">I break things</p>

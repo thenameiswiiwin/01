@@ -1,9 +1,13 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
+const textStroke = require('tailwindcss-text-fill-stroke')()
 
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    textFillColor: theme => theme('borderColor'),
+    textStrokeColor: theme => theme('borderColor'),
+    textStrokeWidth: theme => theme('borderWidth'),
     backgroundColor: theme => ({
       ...theme('colors'),
       primary: 'rgb(236, 236, 236)',
@@ -11,6 +15,14 @@ module.exports = {
       secondary: 'rgb(29, 25, 26)',
     }),
     extend: {
+      width: {
+        '1/8': '12.5%',
+        '9/10': '90%',
+      },
+      height: {
+        60: '60vh',
+        35: '35vh',
+      },
       maxHeight: {
         '1/10': '10%',
         '9/10': '90%',
@@ -43,6 +55,7 @@ module.exports = {
         5: '5vw',
         6: '6vw',
         8: '8.5vw',
+        12: '12vw',
         14: '14.6vw',
         15: '15.3vw',
         18: '18vw',
@@ -53,7 +66,14 @@ module.exports = {
     },
   },
   variants: {
+    // all the following default to ['responsive']
+    textFillColor: ['responsive'],
+    textStrokeColor: ['responsive'],
+    textStrokeWidth: ['responsive'],
+    paintOrder: ['responsive'],
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    textStroke, // no options to configure
+  ],
 }

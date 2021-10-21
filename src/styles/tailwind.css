@@ -53,4 +53,25 @@
   .topPos {
     @apply relative top-2/25 max-h-9/10;
   }
+  .btnActive {
+    .slick-dots li.slick-active button:before {
+      color: white;
+    }
+  }
+}
+
+.slick-dots {
+  bottom: 80px;
+}
+
+.slick-dots li button::before {
+  color: white;
+}
+.slick-dots li.slick-active button:before {
+  color: #d13f3f;
+}
+
+.slick-prev,
+.slick-next {
+  top: 35%;
 }

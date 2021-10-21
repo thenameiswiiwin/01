@@ -12,7 +12,7 @@ function Links() {
       <div className="w-1/2">
         <h5 className="mb-1.5 text-6 font-extrabold uppercase">contact</h5>
         <ul className="text-5 font-semibold text-orange">
-          <li>email</li>
+          <li id="contact">email</li>
         </ul>
       </div>
     </section>
