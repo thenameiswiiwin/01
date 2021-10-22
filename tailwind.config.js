@@ -5,6 +5,10 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    borderColor: theme => ({
+      ...theme('colors'),
+      orange: '#d13f3f',
+    }),
     textFillColor: theme => theme('borderColor'),
     textStrokeColor: theme => theme('borderColor'),
     textStrokeWidth: theme => theme('borderWidth'),
@@ -12,7 +16,7 @@ module.exports = {
       ...theme('colors'),
       primary: 'rgb(236, 236, 236)',
       'primary-2': 'rgb(220, 220, 220)',
-      secondary: 'rgb(29, 25, 26)',
+      secondary: '#141011;',
     }),
     extend: {
       width: {

@@ -15,9 +15,9 @@ function Work() {
       id="work"
       className="h-screen w-full py-7/100 px-7/100 text-12 bg-secondary flex flex-col items-center gap-12"
     >
-      <article className="topPos w-full flex flex-col items-center gap-5">
+      <article className="topPos w-full flex flex-col items-center gap-6">
         <div>
-          <h5 className="text-fill-transparent text-stroke-white text-stroke-1 font-extrabold">
+          <h5 className="text-fill-transparent text-stroke-white text-stroke-1 font-extrabold opacity-40">
             selected work
           </h5>
         </div>
