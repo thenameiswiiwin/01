@@ -6,11 +6,15 @@ function Hero() {
       <article className="topPos flex flex-col gap-9 leading-7">
         <div className="w-1/2 mt-1/20">
           <p className="text-orange capitalize">I break things</p>
-          <p>To learn the in and out of how things work.</p>
+          <p className="text-lg font-medium">
+            To learn the in and out of how things work.
+          </p>
         </div>
         <div className="w-1/2">
           <p className="text-orange capitalize">I make things</p>
-          <p>Once I have a better understanding of how things work.</p>
+          <p className="text-lg font-medium">
+            Once I have a better understanding of how things work.
+          </p>
         </div>
       </article>
       <article className="bottom-1/20 inset-x-7/100 text-18 uppercase leading-none">
