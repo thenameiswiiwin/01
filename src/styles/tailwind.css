@@ -2,50 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* slick React */
+@import '@/styles/slick.css';
 /* tailwind is configured to prefer this font */
-@font-face {
-  font-family: 'HKGrotesk';
-  src: url('@/fonts/HKGrotesk-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'HKGrotesk';
-  src: url('@/fonts/HKGrotesk-Medium.woff2') format('woff2');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'HKGrotesk';
-  src: url('@/fonts/HKGrotesk-SemiBold.woff2') format('woff2');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'HKGrotesk';
-  src: url('@/fonts/HKGrotesk-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'HKGrotesk';
-  src: url('@/fonts/HKGrotesk-ExtraBold.woff2') format('woff2');
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
-}
+@import '@/styles/fonts.css';
 
 @layer utilities {
   .border-primary {
-    @apply border-b-1 border-black;
+    @apply border-b-2 border-black;
   }
   .border-secondary {
     @apply border-t-1 border-black;
@@ -58,20 +22,4 @@
       color: white;
     }
   }
-}
-
-.slick-dots {
-  bottom: 80px;
-}
-
-.slick-dots li button::before {
-  color: white;
-}
-.slick-dots li.slick-active button:before {
-  color: #d13f3f;
-}
-
-.slick-prev,
-.slick-next {
-  top: 35%;
 }
